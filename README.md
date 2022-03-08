@@ -1,4 +1,4 @@
-# metaphor-in-context
+# bandit-qa: Under Construction
 Code for [_Simulating Bandit Learning from User Feedback for Extractive Question Answering_]().
 
 ## Table of Contents
