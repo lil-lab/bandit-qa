@@ -4,13 +4,11 @@ Code for [_Simulating Bandit Learning from User Feedback for Extractive Question
 Please contact the first author if you have any questions.
 
 ## Table of Contents
-- [bandit-qa](#bandit-qa)
-  - [Table of Contents](#table-of-contents)
-  - [Basics](#basics)
-  - [Data](#data)
-  - [Installation](#installation)
-  - [Instruction](#instruction)
-  - [Citation](#citation)
+- [Basics](#basics)
+- [Data](#data)
+- [Installation](#installation)
+- [Instruction](#instruction)
+- [Citation](#citation)
 
 ## Basics
 Brief intro for each file:
@@ -20,9 +18,9 @@ Brief intro for each file:
 
 
 ## Data
-You can download the MRQA datasets from its [official repo](https://github.com/mrqa/MRQA-Shared-Task-2019#training-data): training data and in-domain development data. 
+You can download MRQA datasets from [MRQA official repo](https://github.com/mrqa/MRQA-Shared-Task-2019#training-data): training data and in-domain development data. 
 
-We suggest you to create a _data/_ folder and save all data files there.
+We suggest you to create a _data_ folder and save all data files there.
 
 
 ## Installation
@@ -43,7 +41,7 @@ python train.py --notes 'your own notes for this experiment if needed' --wandb -
 ```
 
 
-??? means the path to files needed by the argument. Please read the argparse code at the bottom of train.py to understand what arguments you could further configure. 
+??? means the path to file needed by the argument. Please read the argparse code at the bottom of train.py to understand what arguments you could further configure. 
 
 
 ## Citation
