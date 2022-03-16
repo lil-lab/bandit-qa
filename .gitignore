@@ -1,0 +1,15 @@
+# setup
+.vscode
+
+# slurm output
+.output
+
+# data
+data
+
+# wandb logging
+wandb
+
+# misc
+__pycache__
+.DS_Store
