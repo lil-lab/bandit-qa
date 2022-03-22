@@ -20,7 +20,9 @@ Brief intro for each file:
 ## Data
 You can download MRQA datasets from [MRQA official repo](https://github.com/mrqa/MRQA-Shared-Task-2019#training-data): training data and in-domain development data. 
 
-We suggest you to create a _data_ folder and save all data files there.
+You can download small sets of supervised examples for initial training from [Splinter repo](https://github.com/oriram/splinter): follow the instruction under "Downloading Few-Shot MRQA Splits".
+
+We suggest you to create a _data_ folder and save all data files there. 
 
 
 ## Installation
@@ -43,6 +45,7 @@ python train.py --notes 'your own notes for this experiment if needed' --wandb -
 
 ??? means the path to file needed by the argument. Please read the argparse code at the bottom of train.py to understand what arguments you could further configure. 
 
+To obtain a model initially trained on some supervised data, you are welcome to 1) use training scripts in [SpanBERT repo](https://github.com/facebookresearch/SpanBERT) on SQuAD and MRQA datasets, or 2) configure train.py in this repo.
 
 ## Citation
 ```
