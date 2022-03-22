@@ -1,5 +1,5 @@
 # bandit-qa
-Code for [_Simulating Bandit Learning from User Feedback for Extractive Question Answering_]()(Link to be added). 
+Code for [_Simulating Bandit Learning from User Feedback for Extractive Question Answering_](https://arxiv.org/pdf/2203.10079.pdf). 
 
 Please contact the first author if you have any questions.
 
