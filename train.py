@@ -912,8 +912,7 @@ def main(args):
 
             if args.wandb:
                 wandb.init(
-                    project='pqa',
-                    entity='lil',
+                    project='bandit-qa',
                     name=
                     f'{args.percentage_train_data}-{args.train_num_orig_ex}{args.dataset}_{args.algo}_{args.model}_{args.scheduler}={lr}_{args.initialize_model_from_checkpoint}+{args.argmax_simulation}_{args.output_dir}',
                     notes=args.notes,
