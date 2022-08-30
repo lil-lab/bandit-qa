@@ -49,5 +49,17 @@ To obtain a model initially trained on some supervised data, you are welcome to 
 
 ## Citation
 ```
-ToBeAdded
+@inproceedings{Gao2022:banditqa-simulation,
+  title     = {Simulating Bandit Learning from User Feedback for Extractive Question Answering},
+  author    = {Gao, Ge  and
+               Choi, Eunsol  and
+               Artzi, Yoav},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+  month     = may,
+  year      = {2022},
+  address   = {Dublin, Ireland},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2022.acl-long.355},
+  pages     = {5167--5179}
+}
 ```
